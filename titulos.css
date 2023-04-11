@@ -1,0 +1,33 @@
+*{
+    font-family: arial, serif;
+    margin: 0;
+    padding: 0;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 95%;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 16px;
+}
+.menao{
+    font-size: 1.3em;
+    width: 95%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+}
